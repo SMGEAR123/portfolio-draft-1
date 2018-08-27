@@ -1,0 +1,163 @@
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  padding-top: 50px;
+}
+
+/*CSS for Sections that divide content */
+
+nav {
+  text-align: center;
+  
+/*   height: 50px;
+  border: 1px solid lemonchiffon;
+  margin: 0px 0px 10px 0px;
+  padding: 0px; */
+}
+
+/*Changing navbar-default background-color to white*/
+.navbar-default {
+/*   background-color: #fff; */
+}
+
+.intro {
+  text-align: center;
+  border: 1px solid blue;
+  margin: 0px 0px 10px 0px;
+  padding: 0px 0px 40px 0px;
+}
+
+.skills2paybills {
+  border: 1px solid yellow;
+  margin: 0px 0px 10px 0px;
+  padding: 10px 0px 40px 0px;
+}
+
+.portfolio {
+  border: 1px solid blue;
+  margin: 0px 0px 10px 0px;
+  padding: 10px 0px 40px 0px;
+  text-align: center;
+}
+
+.experience {
+  border: 1px solid green;
+  margin: 0px 0px 10px 0px;
+  padding: 10px 0px 40px 0px;
+  text-align: center;
+}
+
+footer {
+  border: 1px solid purple;
+  margin: 0px 0px 10px 0px;
+  padding: 10px 0px 40px 0px;
+}
+
+/* Section styles end here */
+/* Nav Styles start here */
+
+nav > ul > li {
+/*   display: block;
+  float: left;
+  padding: 10px;
+  margin: 0px; */
+}
+
+.navbar-btn {
+  height: 36px;
+  width: 80px;
+  margin-left: 10px;
+  padding: 0px;
+}
+
+.version {
+  color: green;
+}
+
+/* Style for portfolio items */
+.port-item > p {
+  text-align: center;
+}
+
+.about {
+  color: teal;
+  font-size: 16px;
+  padding: 10px 80px 10px 80px;
+}
+
+.my-work {
+  text-align: center;
+}
+
+.skills {
+  text-align: center;
+}
+
+.col-md-4 > ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.experience > ul {
+  padding: 0px;
+}
+
+.work-title {
+  font-weight: bold;
+}
+
+/* Portfolio styles */
+
+
+/* Contact Form Styles */
+
+.contact {
+  text-align: center;
+}
+
+section.contact > label, input, textarea {
+  display: block;
+}
+
+label {
+  margin-top: 10px;
+}
+
+.input-group {
+  margin: 0 auto;
+}
+
+textarea {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+/* CSS for User interaction */
+li.nav-item:hover {
+  border: .5px solid #D3D3D3;
+}
+
+/* Media Queries 
+Small devices (tablets, 768px and up)
+Medium devices (desktops, 992px and up)
+Large devices (large desktops, 1200px and up)
+*/
+
+/* Skills and Tools 
+- Fix padding for listed skills at max length */
+
+/* Portfolio 
+- Fix image margins
+*/
+@media (max-width: 992px) {
+  .port-item > img {
+    padding: 10px 10px;
+  }
+}
