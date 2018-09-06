@@ -7,8 +7,17 @@ ul {
   list-style-type: none;
 }
 
+hr {
+  width: 92%;
+}
 header {
   padding-top: 50px;
+}
+
+.container.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 80px;
 }
 
 .myself {
@@ -16,15 +25,36 @@ header {
 }
 
 .my-title {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: bold;
+}
+
+.motivator {
+  color: #fff;
+}
+
+/* Project Links section .my-work */
+
+.my-work {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.my-work > p {
+  padding: 10px 0px 20px 0px;
+}
+
+.my-work > p > a {
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
 }
 
 /*CSS for Sections that divide content */
 
 nav {
   text-align: center;
-  
+
 /*   height: 50px;
   border: 1px solid lemonchiffon;
   margin: 0px 0px 10px 0px;
@@ -38,28 +68,28 @@ nav {
 
 .intro {
   text-align: center;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: 0px 0px 10px 0px;
   padding: 0px 0px 40px 0px;
 }
 
 .skills2paybills {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   margin: 0px 0px 10px 0px;
   padding: 10px 0px 40px 0px;
 }
 
 .portfolio {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: 0px 0px 10px 0px;
   padding: 10px 0px 40px 0px;
   text-align: center;
 }
 
 .experience {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin: 0px 0px 10px 0px;
-  padding: 10px 0px 40px 0px;
+  padding: 40px 0px 40px 0px;
   text-align: center;
 }
 
@@ -86,23 +116,15 @@ nav > ul > li {
   padding: 0px;
 }
 
-.motivator {
-  color: teal;
-}
-
 /* Style for portfolio items */
 .port-item > p {
   text-align: center;
 }
 
 .about {
-  color: teal;
-  font-size: 16px;
+  /* color: teal; */
+  font-size: 22px;
   padding: 10px 80px 10px 80px;
-}
-
-.my-work {
-  text-align: center;
 }
 
 .skills {
@@ -153,20 +175,30 @@ li.nav-item:hover {
   border: .5px solid #D3D3D3;
 }
 
-/* Media Queries 
+/* Media Queries
 Small devices (tablets, 768px and up)
 Medium devices (desktops, 992px and up)
 Large devices (large desktops, 1200px and up)
 */
 
-/* Skills and Tools 
+/* Skills and Tools
 - Fix padding for listed skills at max length */
 
-/* Portfolio 
+/* Portfolio
 - Fix image margins
 */
 @media (max-width: 992px) {
   .port-item > img {
     padding: 10px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .my-work > p {
+    padding: 5px 0px 5px 0px;
+  }
+
+  .about {
+    padding: 10px 30px 10px 30px;
   }
 }

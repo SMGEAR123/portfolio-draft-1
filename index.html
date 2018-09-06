@@ -8,62 +8,68 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="css/style.css">
 
-  
+
 </head>
 
 <body>
 
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
-    
+
     <div class="navbar-header">
-      <a href="index.html" class="navbar-brand">Sam Mans</a>
-      
+      <a href="index.html" class="navbar-brand">SMANS.IO</a>
+
       <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
     </div>
-    
+
     <!-- Drop down markup -->
    <div class="collapse navbar-collapse" id="mydropdown">
-     
+
     <ul class="nav navbar-nav">
       <li class="nav-item"><a href="#">Home</a></li>
       <li class="nav-item"><a href="#">Projects</a></li>
       <li class="nav-item"><a href="#">Contact</a></li>
     </ul>
-     
+
     <button class="btn btn-default navbar-btn navbar-right">Register</button>
     <button class="btn btn-primary navbar-btn navbar-right">Login</button>
    </div>
      <!--dropdown markup ends-->
-    
+
   </div> <!-- .container ends -->
-  
+
 <!--   <ul class="nav navbar-right">
     <li>Github</li>
     <li>Linkedin</li>
     <li>Codepen</li>
   <ul> -->
-    
+
 </nav>
-<div class="container" style="max-width: 1200px; margin: 0 auto; padding: 10px; padding-top: 80px;">
+<!-- <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 10px; padding-top: 80px;"> -->
+<div class="container content">
 <header>
   <!-- Started on 8/15/18 -->
     <section class="intro">
-  <h1>Sam's Web Developer Porfolio <br><span class="motivator"> Keep Going!</span></h1>
+  <h1>Sam's Web Developer Porfolio <br>
+    <span class="motivator">You've got this!</span>
+  </h1>
 
     <img class="myself" src="img/sam-300x300.png" alt="placeholder image" width="200px;" height="200px;">
 
     <h2>Sam Mans<br><span class="my-title">Aspiring Web Developer from Washington, DC</span></h2>
 
-    <h1>About Me</></h1>
+    <hr>
+    <h2>About Me</></h2>
         <!-- Lorem text courtesy of https://www.lipsum.com/feed/html -->
-    <p class="about">I currently work in website management, development, and support and am a perpetual student! Since graduating college I've always gravitated towards technology. I'm always looking for opportunities to learn more and hope to be a great developer!</p>
+    <p class="about">I currently work in website management, development, and support and am a perpetual student! Since graduating college I've always gravitated towards technology and am constantly working to learn new skills to improve my work. I'm always looking for opportunities to learn more and hope to be a great developer some day!</p>
   <article class="my-work">
-   <p><a href="#portfolio">View My Work</a></p>
+<!--Maybe have this fade in? -->
+    <h3>Looking For Something Specific?</h3>
+   <p><a href="#portfolio">My Portfolio</a></p>
    <p><a href="#experience">Experience</a></p>
    <p><a href="#contact">Contact Me</a></p>
  </article>
@@ -103,8 +109,8 @@
 </article>
   </section>
 <!--Portfolio Section Begins-->
-<section class="portfolio">
-  <h2 id="portfolio">Portfolio</h2>
+<section class="portfolio" id="portfolio">
+  <h2>Portfolio</h2>
   <!--Placeholders courtesy of https://placeholder.com/ -->
   <article class="row">
     <div class="col-md-4 port-item">
@@ -122,10 +128,10 @@
   </article>
   </section>
   <!--Portfolio section ends-->
-  
+
 <!--Section on Experience and Projects starts here -->
-  <section class="experience">
-     <h2 id="#experience">Experience</h2>
+  <section class="experience" id="experience">
+     <h2>Experience</h2>
     <h3>Work</h3>
     <ul>
       <li><span class="work-title">Title, Company</span><br>
@@ -145,29 +151,29 @@
   </section>
   <footer>
     <!--Contact Form Begins-->
-    <section class="contact">
-      
+    <section class="contact" id="contact">
+
       <!-- Screen readers will have trouble with your forms if you don't include a label for every input. -->
-   
-  <h2 id="#contact">Contact Me</h2>
+
+  <h2>Contact Me</h2>
     <div class="row">
 <!--       <div class="col-lg-6"> -->
-        
-    <div class="input-group">     
+
+    <div class="input-group">
       <label for="text">Name</label>
       <input type="text" placeholder="Type name here" aria-describedby="basic-addon1">
     </div>
-      
-    <div class="input-group">  
+
+    <div class="input-group">
       <label for="email">Email</label>
       <input type="text"placeholder="Type email here">
     </div>
-        
-    <div class="input-group">  
+
+    <div class="input-group">
       <label for="message">Message</label>
       <textarea name="body" id="text-body" cols="30" rows="10" placeholder="Type your message here!"></textarea>
     </div>
-     
+
 <!--     </div> -->
       </div>
     </section>
@@ -182,7 +188,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-  
+
 
     <script  src="js/index.js"></script>
 
