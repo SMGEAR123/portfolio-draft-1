@@ -36,6 +36,17 @@ header {
   color: #fff;
 }
 
+/* Nav item styles start here */
+
+.navbar-btn {
+  height: 36px;
+  width: 80px;
+  margin-left: 10px;
+  padding: 0px;
+}
+/* Nav Styles end here */
+
+
 /* Project Links section .my-work */
 
 .my-work {
@@ -53,12 +64,29 @@ header {
   color: black;
 }
 
-/*CSS for Sections that divide content */
+/* Styles for social media article element */
+
+.social-icons {
+  padding: 0px;
+}
+
+/* Controls size of social media icons */
+.fab {
+  font-size: 22px;
+}
+
+ul.social-icons > li {
+  /* display: inline-block; */
+  padding-top: 10px;
+}
+
+/* Social Media Ends */
+
+/*CSS for sections that divide content */
 
 nav {
   text-align: center;
-
-/*   height: 50px;
+  /* height: 50px;
   border: 1px solid lemonchiffon;
   margin: 0px 0px 10px 0px;
   padding: 0px; */
@@ -103,21 +131,6 @@ footer {
 }
 
 /* Section styles end here */
-/* Nav Styles start here */
-
-nav > ul > li {
-/*   display: block;
-  float: left;
-  padding: 10px;
-  margin: 0px; */
-}
-
-.navbar-btn {
-  height: 36px;
-  width: 80px;
-  margin-left: 10px;
-  padding: 0px;
-}
 
 /* Style for portfolio items */
 .port-item > p {
@@ -126,7 +139,7 @@ nav > ul > li {
 
 .about {
   /* color: teal; */
-  font-size: 22px;
+  font-size: 18px;
   padding: 10px 80px 10px 80px;
 }
 
@@ -145,6 +158,11 @@ nav > ul > li {
 
 .work-title {
   font-weight: bold;
+  font-size: 18px;
+}
+
+.work-description {
+  font-size: 16px;
 }
 
 /* Portfolio styles */
@@ -198,7 +216,17 @@ Large devices (large desktops, 1200px and up)
   .port-item > img {
     padding: 10px 10px;
   }
+  
 }
+
+/* Custom media query for social icons */
+@media (min-width: 600px ) {
+  ul.social-icons > li {
+    display: inline-block;
+    padding: 20px;
+  }
+}
+
 
 @media (max-width: 768px) {
   .my-work > p {
@@ -218,4 +246,5 @@ Large devices (large desktops, 1200px and up)
     width: 150px;
     height: 150px;
   }
+
 }
