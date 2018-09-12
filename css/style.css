@@ -132,6 +132,7 @@ footer {
 
 /* Section styles end here */
 
+
 /* Style for portfolio items */
 .port-item > p {
   text-align: center;
@@ -147,12 +148,21 @@ footer {
   text-align: center;
 }
 
+ /*Bootstrap Specific Styles */
 .col-md-4 > ul {
   list-style-type: none;
   padding: 0px;
 }
 
-.experience > ul {
+/* Bootstrap styles end here */
+
+/* Portfolio styles */
+
+/* Portfolio styles end here */
+
+
+/* Experience element styles start*/
+.experience > div > ul {
   padding: 0px;
 }
 
@@ -165,7 +175,11 @@ footer {
   font-size: 16px;
 }
 
-/* Portfolio styles */
+/* Experience element styles end here */
+
+
+
+
 
 
 /* Contact Form Styles */
@@ -197,7 +211,8 @@ textarea {
 
 /* CSS for User interaction */
 li.nav-item:hover {
-  border: .5px solid #D3D3D3;
+  border: .25px solid #D3D3D3;
+  /* padding: 0px; */
 }
 
 /* Media Queries
@@ -223,7 +238,8 @@ Large devices (large desktops, 1200px and up)
 @media (min-width: 600px ) {
   ul.social-icons > li {
     display: inline-block;
-    padding: 20px;
+    margin: 0px 0px 0px 0px;
+    padding-left: 40px;
   }
 }
 
@@ -245,6 +261,10 @@ Large devices (large desktops, 1200px and up)
   .myself {
     width: 150px;
     height: 150px;
+  }
+
+  ul.social-icons > li {
+    padding-top: 20px;
   }
 
 }
