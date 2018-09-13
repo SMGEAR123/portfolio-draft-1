@@ -1,3 +1,11 @@
+ /*Bootstrap Specific Styles */
+ .col-md-4 > ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+/* Bootstrap styles */
+
 p {
   padding: 0;
   margin: 0;
@@ -28,8 +36,8 @@ header {
 }
 
 .my-title {
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 2em;
 }
 
 .motivator {
@@ -144,17 +152,19 @@ footer {
   padding: 10px 80px 10px 80px;
 }
 
+/* Skills and Tools section */
 .skills {
   text-align: center;
 }
 
- /*Bootstrap Specific Styles */
-.col-md-4 > ul {
-  list-style-type: none;
-  padding: 0px;
+.skill-list > li {
+  font-size: 16px;
+  padding-bottom: 20px;
 }
 
-/* Bootstrap styles end here */
+/* Skills and Tools ends here */
+
+
 
 /* Portfolio styles */
 
@@ -185,6 +195,10 @@ footer {
 /* Contact Form Styles */
 
 .contact {
+  font-size: 18px;
+}
+
+.contact > h2 {
   text-align: center;
 }
 
@@ -201,13 +215,16 @@ label {
 }
 
 .input-group > input {
-  width: 200px;
+  width: 280px;
+  height: 32px;
 }
 
 textarea {
   height: 100px;
   margin-bottom: 20px;
 }
+
+/* Contact form styles end */
 
 /* CSS for User interaction */
 li.nav-item:hover {
