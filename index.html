@@ -79,11 +79,10 @@
       </div> -->
 
     </article>
-
-    <hr>
+ 
     <h2>About Me</h2>
         <!-- Lorem text courtesy of https://www.lipsum.com/feed/html -->
-    <p class="about">I currently work in website management, development, and support and am a perpetual student! I've always gravitated towards technology and am constantly working to learn new skills.</p>
+    <p class="about">I currently work in website management, development, and support and am a perpetual student! I've always gravitated towards technology and am constantly working to learn new skills.</p> <p class="about">I'm currently focused on learning front-end web development but have experience working in backend with Node, MongoDB, and Firebase! I'm hoping to implement a bunch of features on this page as I learn more!</p>
   <article class="my-work">
 <!--Maybe have this fade in? -->
     <h2>Looking For Something Specific?</h2>
@@ -91,7 +90,6 @@
    <p><a href="#portfolio">My Portfolio</a></p>
    <p><a href="#experience">Experience</a></p>
    <p><a href="#contact">Contact Me</a></p>
-<hr>
  </article>
   </section>
 </header>
@@ -130,7 +128,6 @@
   </div>
 </article>
 
-<hr>
   </section>
 <!--Portfolio Section Begins-->
 <section class="portfolio" id="portfolio">
@@ -138,16 +135,39 @@
   <!--Placeholders courtesy of https://placeholder.com/ -->
   <article class="row">
     <div class="col-md-4 port-item">
-      <p><b>Project 1</b></p>
+      <div class="thumbnail">
+      <a href="#">
       <img src="http://via.placeholder.com/200x200" alt="placeholder image" width="200px;" height="200px;">
+      </a>
+        <div class="caption">
+          <h3>Project 1</h3>
+          <p>A description of project 1</p>
+        </div>
       </div>
-    <div class="col-md-4 port-item">
-      <p><b>Project 2</b></p>
-      <img src="http://via.placeholder.com/200x200" alt="placeholder image" width="200px;" height="200px;">
     </div>
+
     <div class="col-md-4 port-item">
-      <p><b>Project 3</b></p>
-      <img src="http://via.placeholder.com/200x200" alt="placeholder image" width="200px;" height="200px;">
+      <div class="thumbnail">
+        <a href="#">
+        <img src="http://via.placeholder.com/200x200" alt="placeholder image" width="200px;" height="200px;">
+        </a>
+        <div class="caption">
+          <h3>Project 2</h3>
+          <p>A description of project 2</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 port-item">
+      <div class="thumbnail">
+        <a href="#">
+        <img src="http://via.placeholder.com/200x200" alt="placeholder image" width="200px;" height="200px;">
+        </a>
+          <div class="caption">
+            <h3>Project 3</h3>
+            <p>A description of project 2</p>
+          </div>
+        </div>
     </div>
   </article>
 </section>
@@ -205,7 +225,7 @@
   <h2>Contact Me</h2>
     <!-- <div class="row"> -->
 <!--       <div class="col-lg-6"> -->
-
+<div class="contact-form">
     <div class="input-group">
       <label for="text">Name*</label>
       <input type="text" placeholder="What's your name?" aria-describedby="basic-addon1">
@@ -223,8 +243,9 @@
 
     <div class="input-group">
       <label for="message">Message*</label>
-      <textarea required name="message" id="text-body" cols="29" rows="30" placeholder="Type your message here!"></textarea>
+      <textarea required name="message" id="text-body" cols="42" rows="30" placeholder="Type your message here!"></textarea>
     </div>
+  </div>
 
 <!--     </div> -->
       <!-- </div> -->
