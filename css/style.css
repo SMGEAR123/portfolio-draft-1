@@ -22,10 +22,19 @@ header {
   padding-top: 30px;
 }
 
+div.container-fluid {
+  padding: 50px 50px;
+  background-color: lemonchiffon;
+}
+
 .container.content {
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 40px;
+}
+
+div.container.content {
+ text-align: center;
 }
 
 .myself {
@@ -107,7 +116,7 @@ nav {
 
 .intro {
   text-align: center;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: 0px 0px 10px 0px;
   padding: 0px 0px 0px 0px;
 }
