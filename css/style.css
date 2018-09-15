@@ -16,24 +16,28 @@ ul {
 }
 
 hr {
-  width: 92%;
+  width: 60%;
+  /* Fallbacks for css. Source: https://stackoverflow.com/questions/6382023/changing-the-color-of-an-hr-element */
+  color: black;
+  border-color: black;
+  background-color: black;
+
 }
 header {
   padding-top: 30px;
 }
 
 div.container-fluid {
-  padding: 50px 50px;
+  padding: 10px 0px 50px 0px;
   background-color: lemonchiffon;
 }
 
 .container.content {
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 40px;
 }
 
-div.container.content {
+.content > * {
  text-align: center;
 }
 
@@ -67,7 +71,7 @@ div.container.content {
 /* Project Links section .my-work */
 
 .my-work {
-  margin-top: 20px;
+  padding: 20px 20px;
   text-align: center;
 }
 
@@ -82,6 +86,11 @@ div.container.content {
 }
 
 /* Styles for social media article element */
+
+.social {
+  padding-top: 10px;
+  border-top-width: 50%;
+}
 
 .social-icons {
   padding: 0px;
@@ -117,7 +126,7 @@ nav {
 .intro {
   text-align: center;
   /* border: 1px solid blue; */
-  margin: 0px 0px 10px 0px;
+  /* margin: 0px 0px 10px 0px; */
   padding: 0px 0px 0px 0px;
 }
 
@@ -130,15 +139,14 @@ nav {
 .portfolio {
   border: 1px solid rgb(0, 213, 192);
   /* border-top: 1px solid #F0F0F0; */
-  padding: 10px 0px 100px 0px;
+  padding: 0px 0px 20px 0px;
   text-align: center;
 }
 
 .experience {
   border: 1px solid green;
   /* border-top: 1px solid #F0F0F0; */
-  margin: 0px 0px 10px 0px;
-  padding: 40px 0px 40px 0px;
+  padding: 0px 0px 40px 0px;
   text-align: center;
 }
 
@@ -157,7 +165,7 @@ footer {
   text-align: center;
 }
 
-.about {
+.about-text {
   /* color: teal; */
   font-size: 18px;
   padding: 10px 80px 10px 80px;
@@ -174,9 +182,6 @@ footer {
 }
 
 /* Skills and Tools ends here */
-
-
-
 /* Portfolio styles */
 
 div.thumbnail {
@@ -201,10 +206,6 @@ div.thumbnail {
 }
 
 /* Experience element styles end here */
-
-
-
-
 
 
 /* Contact Form Styles */
@@ -285,14 +286,13 @@ Large devices (large desktops, 1200px and up)
   }
 }
 
-
 @media (max-width: 768px) {
   .my-work > p {
     padding: 5px 0px 5px 0px;
   }
 
-  .about {
-    padding: 10px 30px 10px 30px;
+  .about-text {
+    padding: 0px 30px 10px 30px;
     font-size: 18px;
   }
 
@@ -303,6 +303,8 @@ Large devices (large desktops, 1200px and up)
   .myself {
     width: 150px;
     height: 150px;
+    padding: 0px;
+    margin: 0px;
   }
 
   ul.social-icons > li {
@@ -318,6 +320,14 @@ Large devices (large desktops, 1200px and up)
     height: 200px;
     width: 300px;
     margin-bottom: 20px;
+  }
+
+  .experience {
+    padding: 10px;
+  }
+
+  hr {
+    display: none;
   }
 
 }
