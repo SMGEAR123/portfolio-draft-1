@@ -28,8 +28,8 @@ header {
 }
 
 div.container-fluid {
-  padding: 10px 0px 50px 0px;
-  background-color: lemonchiffon;
+  padding: 10px 0px 10px 0px;
+  /* background-color: #b0d4e8; */
 }
 
 .container.content {
@@ -70,16 +70,16 @@ div.container-fluid {
 
 /* Project Links section .my-work */
 
-.my-work {
+.shortcuts {
   padding: 20px 20px;
   text-align: center;
 }
 
-.my-work > p {
+.shortcuts > p {
   padding: 10px 0px 20px 0px;
 }
 
-.my-work > p > a {
+.shortcuts > p > a {
   font-weight: bold;
   font-size: 18px;
   color: black;
@@ -131,20 +131,22 @@ nav {
 }
 
 .skills2paybills {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
+  /* background: #353839; */
   /* border-top: 1px solid #F0F0F0; */
-  padding: 0px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
 }
 
 .portfolio {
-  border: 1px solid rgb(0, 213, 192);
+  /* border: 1px solid rgb(0, 213, 192); */
   /* border-top: 1px solid #F0F0F0; */
   padding: 0px 0px 20px 0px;
   text-align: center;
 }
 
 .experience {
-  border: 1px solid green;
+  /* border: 1px solid green; */
+  /* background: #353839; */
   /* border-top: 1px solid #F0F0F0; */
   padding: 0px 0px 40px 0px;
   text-align: center;
@@ -186,6 +188,10 @@ footer {
 
 div.thumbnail {
   border: none;
+}
+
+div.thumbnail:hover {
+  border: .5px solid #d3d3d3;
 }
 
 /* Portfolio styles end here */
@@ -254,10 +260,6 @@ li.nav-item:hover {
   /* padding: 0px; */
 }
 
-div.thumbnail:hover {
-  border: .5px solid blue;
-}
-
 /* Media Queries
 Small devices (tablets, 768px and up)
 Medium devices (desktops, 992px and up)
@@ -274,7 +276,7 @@ Large devices (large desktops, 1200px and up)
   .port-item > img {
     padding: 10px 10px;
   }
-  
+
 }
 
 /* Custom media query for social icons */
@@ -287,7 +289,7 @@ Large devices (large desktops, 1200px and up)
 }
 
 @media (max-width: 768px) {
-  .my-work > p {
+  .shortcuts > p {
     padding: 5px 0px 5px 0px;
   }
 
@@ -296,7 +298,7 @@ Large devices (large desktops, 1200px and up)
     font-size: 18px;
   }
 
-  .my-work > h3 {
+  .shortcuts > h3 {
     margin-bottom: 16px;
   }
 

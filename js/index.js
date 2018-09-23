@@ -3,6 +3,10 @@ $(document).ready(function(){
   const navButton = $('button.navbar-toggle');
   const collapsingDiv = $('div.navbar-collapse');
   const input = $('div.input-group > input, textarea');
+  const shortcutBtn = $('button.anchor-btn');
+  const anchorLinks = $('p.anchor');
+
+anchorLinks.fadeOut();//Links fade out at the beginning
 
  /* When user scrolls, the nav tab disappears */
  navButton.click(function(){
@@ -15,8 +19,26 @@ $(document).ready(function(){
       return;
     }
  }//function ends
-   /*When you scroll the code below runs */
+
+/*When you scroll the code below runs */
    $(window).scroll(changeClass)
+
+ })
+
+/* Create a function that displays shortcut anchor links */
+ shortcutBtn.click(function() {
+   if (shortcutBtn.hasClass('begone-anchors')) {
+     console.log("Fading Out")
+     console.log(shortcutBtn.innerText)
+     shortcutBtn.innerText = "Try a shortcut!"
+     anchorLinks.fadeOut();
+     shortcutBtn.removeClass('begone-anchors');
+
+   } else {
+     console.log('Fading in');
+     anchorLinks.fadeIn();
+     shortcutBtn.toggleClass('begone-anchors');
+   }
 
  })
 
