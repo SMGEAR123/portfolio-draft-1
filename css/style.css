@@ -4,7 +4,7 @@
   padding: 0px;
 }
 
-/* Bootstrap styles */
+/* General Styles */
 
 p {
   padding: 0;
@@ -59,12 +59,18 @@ div.container-fluid {
 
 /* Nav item styles start here */
 
+.navbar-brand {
+  color: black;
+  padding-right: 80px;
+}
+
 .navbar-btn {
   height: 36px;
   width: 80px;
   margin-left: 10px;
   padding: 0px;
 }
+
 /* Nav Styles end here */
 
 
@@ -80,9 +86,21 @@ div.container-fluid {
 }
 
 .shortcuts > p > a {
-  font-weight: bold;
+  font-weight: 1em;
   font-size: 18px;
   color: black;
+}
+
+#portfolio {
+  height: 40px;
+}
+
+#experience {
+  height: 40px;
+}
+
+#contact {
+  height: 40px;
 }
 
 /* Styles for social media article element */
@@ -119,6 +137,7 @@ nav {
 }
 
 /*Changing navbar-default background-color to white*/
+
 .navbar-default {
   background-color: #fff;
 }
@@ -140,7 +159,7 @@ nav {
 .portfolio {
   /* border: 1px solid rgb(0, 213, 192); */
   /* border-top: 1px solid #F0F0F0; */
-  padding: 0px 0px 20px 0px;
+  padding: 0px 0px 0px 0px;
   text-align: center;
 }
 
@@ -289,13 +308,14 @@ Large devices (large desktops, 1200px and up)
 }
 
 @media (max-width: 768px) {
-  .shortcuts > p {
-    padding: 5px 0px 5px 0px;
-  }
 
   .about-text {
     padding: 0px 30px 10px 30px;
     font-size: 18px;
+  }
+
+  .shortcuts > p {
+    padding: 16px 0px 16px 0px;
   }
 
   .shortcuts > h3 {
