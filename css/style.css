@@ -35,6 +35,7 @@ header {
 div.container-fluid {
   padding: 10px 0px 10px 0px;
   background-color: #b0d4e8;
+  /* background-color: #003399; */
   /* color: white; */
 }
 
@@ -80,11 +81,19 @@ div.container-fluid {
 /* Nav Styles end here */
 
 
-/* Project Links section .my-work */
+/* Links to sections of main page with heights so that content appears correctly */
 
 .shortcuts {
   padding: 20px 20px;
   text-align: center;
+}
+
+.shortcuts > button.anchor-btn {
+  font-weight: bold;
+  font-size: 18px;
+  height: 50px;
+  width: 150px;
+  margin-bottom: 10px;
 }
 
 .shortcuts > p {
@@ -122,8 +131,14 @@ div.container-fluid {
 
 /* Controls size of social media icons */
 .fab {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: normal;
+}
+
+i.fab:hover {
+  font-size: 28px;
+  color: #000099;
+  /* color: #006600; */
 }
 
 ul.social-icons > li {
@@ -366,7 +381,7 @@ Large devices (large desktops, 1200px and up)
   }
 
   .fab {
-    font-size: 28px;
+    font-size: 26px;
   }
 
 }
