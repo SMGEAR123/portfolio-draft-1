@@ -33,7 +33,7 @@ header {
 }
 
 div.container-fluid {
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px 30px 0px;
   background-color: #b0d4e8;
   /* background-color: #003399; */
   /* color: white; */
@@ -168,7 +168,7 @@ nav {
   text-align: center;
   /* border: 1px solid blue; */
   /* margin: 0px 0px 10px 0px; */
-  padding: 0px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
 }
 
 .skills2paybills {
