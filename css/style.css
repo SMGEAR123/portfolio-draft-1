@@ -6,6 +6,11 @@
 
 /* General Styles */
 
+a {
+  color: black;
+  font-weight: bold;
+}
+
 p {
   padding: 0;
   margin: 0;
@@ -29,7 +34,8 @@ header {
 
 div.container-fluid {
   padding: 10px 0px 10px 0px;
-  /* background-color: #b0d4e8; */
+  background-color: #b0d4e8;
+  /* color: white; */
 }
 
 .container.content {
@@ -218,7 +224,13 @@ div.thumbnail:hover {
 
 /* Experience element styles start*/
 .experience > div > ul {
-  padding: 0px;
+  width: 80%;
+  padding: 0px 0px 20px 0px;
+  margin: 0 auto;
+}
+
+ul.list-group > li {
+  margin-bottom: 12px;
 }
 
 .work-title {
@@ -350,6 +362,10 @@ Large devices (large desktops, 1200px and up)
 
   hr {
     display: none;
+  }
+
+  .fab {
+    font-size: 28px;
   }
 
 }
