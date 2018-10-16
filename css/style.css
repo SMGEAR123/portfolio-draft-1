@@ -123,6 +123,7 @@ div.container-fluid {
 /* Controls size of social media icons */
 .fab {
   font-size: 22px;
+  font-weight: normal;
 }
 
 ul.social-icons > li {
