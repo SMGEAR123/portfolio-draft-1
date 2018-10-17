@@ -7,7 +7,7 @@
 /* General Styles */
 
 a {
-  color: black;
+  color: #3c3c95;
   font-weight: bold;
 }
 
@@ -210,6 +210,14 @@ footer {
 
 .notify {
   color: #b30000;
+  font-weight: bold;
+}
+
+.micro {
+  padding: 15px;
+}
+
+.micro > p {
   font-weight: bold;
 }
 
