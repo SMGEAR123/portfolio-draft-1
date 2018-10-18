@@ -7,7 +7,8 @@
 /* General Styles */
 
 a {
-  color: #3c3c95;
+  /* color: #3c3c95; */
+  color: #4b4f4f;
   font-weight: bold;
 }
 
@@ -50,8 +51,8 @@ div.container-fluid {
 
 .myself {
   border-radius: 50%;
-  width: 210px;
-  height: 210px;
+  width: 260px;
+  height: 260px;
   margin: 15px 15px;
 }
 
@@ -90,10 +91,10 @@ div.container-fluid {
 
 .shortcuts > button.anchor-btn {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   height: 50px;
-  width: 150px;
-  margin-bottom: 10px;
+  width: 170px;
+  margin: 10px 0px 10px 0px;
 }
 
 .shortcuts > p {
@@ -103,7 +104,13 @@ div.container-fluid {
 .shortcuts > p > a {
   font-weight: 1em;
   font-size: 18px;
-  color: black;
+  color: #4b4f4f;
+}
+
+.shortcuts > p > a:hover {
+  font-size: 20px;
+  color: #37b289;
+  text-decoration: none;
 }
 
 #portfolio {
@@ -136,8 +143,9 @@ div.container-fluid {
 }
 
 i.fab:hover {
-  font-size: 28px;
-  color: #000099;
+  font-size: 26px;
+  color: #37b289;
+  /* color: #000099; */
   /* color: #006600; */
 }
 
@@ -369,14 +377,14 @@ Large devices (large desktops, 1200px and up)
   }
 
   .myself {
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 220px;
     padding: 0px;
     margin-top: 20px;
   }
 
   ul.social-icons > li {
-    padding-top: 20px;
+    padding-top: 40px;
   }
 
   .input-group > input {
