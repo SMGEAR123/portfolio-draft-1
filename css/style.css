@@ -8,7 +8,7 @@
 
 a {
   /* color: #3c3c95; */
-  color: #4b4f4f;
+  color: black;
   font-weight: bold;
 }
 
@@ -110,7 +110,9 @@ div.container-fluid {
 .shortcuts > p > a:hover {
   font-size: 20px;
   color: #37b289;
+  /* color: #013220; */
   text-decoration: none;
+  /* text-decoration: underline dotted; */
 }
 
 #portfolio {
@@ -136,6 +138,11 @@ div.container-fluid {
   padding: 0px;
 }
 
+.skill-icon {
+  font-size: 50px;
+  padding: 24px;
+}
+
 /* Controls size of social media icons */
 .fab {
   font-size: 24px;
@@ -144,7 +151,7 @@ div.container-fluid {
 
 i.fab:hover {
   font-size: 26px;
-  color: #37b289;
+  color: #013220
   /* color: #000099; */
   /* color: #006600; */
 }
@@ -216,9 +223,13 @@ footer {
   text-align: center;
 }
 
+.notify-icon {
+  font-size: 24px;
+}
+
 .notify {
   color: #b30000;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .micro {
@@ -267,7 +278,7 @@ div.thumbnail:hover {
 }
 
 ul.list-group > li {
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 
 .work-title {
