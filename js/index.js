@@ -1,10 +1,45 @@
 $(document).ready(function(){
   console.log('Document is ready');
+  const body = $(document);
   const navButton = $('button.navbar-toggle');
   const collapsingDiv = $('div.navbar-collapse');
   const input = $('div.input-group > input, textarea');
   const shortcutBtn = $('button.anchor-btn');
   const anchorLinks = $('p.anchor');
+  const topButton = $('button.fixed-top-btn');
+
+/*Logic for top scroll button */
+/* Create functions that add or remove buttons */
+const displayBtn =  function() {
+  topButton.css("display", "block")
+}
+
+const removeBtn = function() {
+  topButton.css("display", "none");
+}
+
+$(window).scroll(function(){
+  let height = $(window).scrollTop();
+  // console.log(height);
+  if (height > 1) {
+    displayBtn();
+  } else if (height === 0) {
+    removeBtn();
+  }
+});
+
+// body.one('scroll', function(){
+//   console.log('scrolling detected.');
+//   displayBtn();
+//   return;
+// })
+
+topButton.click(function(){
+  console.log('topButton clicked!');
+  // removeBtn();
+});
+
+/* Top scroll button ends here */
 
 anchorLinks.fadeOut();//Links fade out at the beginning
 
