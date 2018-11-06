@@ -18,6 +18,7 @@ const removeBtn = function() {
   topButton.css("display", "none");
 }
 
+/*Source for function below https://stackoverflow.com/questions/17441065/how-to-detect-scroll-position-of-page-using-jquery */
 $(window).scroll(function(){
   let height = $(window).scrollTop();
   // console.log(height);
